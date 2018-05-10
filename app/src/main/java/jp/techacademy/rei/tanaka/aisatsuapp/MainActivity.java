@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             mTextView.setText("おはよう");
                         } else if ((hourOfDay >10) && (hourOfDay <= 17)){
                             mTextView.setText("こんにちは");
-                        }else if ((hourOfDay > 18) && (hourOfDay <= 24) || (hourOfDay == 1)){
+                        }else if ((hourOfDay > 18) && (hourOfDay <= 24) || (hourOfDay == 1) || (hourOfDay ==0)){
                             mTextView.setText("こんばんは");
                         }
                     }
